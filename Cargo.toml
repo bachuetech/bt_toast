@@ -1,0 +1,32 @@
+[package]
+name = "bt_toast"
+version = "0.1.0"
+edition = "2024"
+authors = ["calvarez <calvarez@bachuetech.biz>"]
+description = "A simple Toast mechanism using Dioxus and Bootstrap."
+keywords = ["toast", "alerts"]
+categories = ["development-tools::build-utils"]
+repository = "https://github.com/bachuetech/"
+readme = "README.md"
+homepage = "https://github.com/bachuetech/"
+license = "MIT OR Apache-2.0 "
+
+
+[dev-dependencies]
+dioxus-ssr = "0.6.2"
+
+[dependencies]
+dioxus = "0.6.3"
+
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
