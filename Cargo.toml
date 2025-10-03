@@ -6,9 +6,9 @@ authors = ["calvarez <calvarez@bachuetech.biz>"]
 description = "A simple Toast mechanism using Dioxus and Bootstrap."
 keywords = ["toast", "alerts"]
 categories = ["development-tools::build-utils"]
-repository = "https://github.com/bachuetech/"
+repository = "https://github.com/bachuetech/bt_toast.git"
 readme = "README.md"
-homepage = "https://github.com/bachuetech/"
+homepage = "https://github.com/bachuetech/bt_toast"
 license = "MIT OR Apache-2.0 "
 
 
