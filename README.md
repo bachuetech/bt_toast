@@ -11,6 +11,8 @@ Use dx run --platform desktop --example main
 ## Version History
 * 0.1.0
     * Initial Release
+* 0.1.1
+    * Update Dioxus dependency to 0.7   
 
 ## License
 GPL-3.0-only

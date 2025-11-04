@@ -5,6 +5,7 @@ fn main() {
     launch(App);
 }
 
+#[component]
 fn App() -> Element {
     let mut toast_manager = use_signal(||ToastMgr::new(None));
     rsx!(
