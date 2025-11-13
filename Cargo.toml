@@ -1,6 +1,6 @@
 [package]
 name = "bt_toast"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["calvarez <calvarez@bachuetech.biz>"]
 description = "A simple Toast mechanism using Dioxus and Bootstrap."
@@ -13,10 +13,10 @@ license = "MIT OR Apache-2.0 "
 
 
 [dev-dependencies]
-dioxus-ssr = "0.7.0"
+dioxus-ssr = "0.7.1"
 
 [dependencies]
-dioxus = "0.7.0"
+dioxus = "0.7.1"
 
 
 [profile]
